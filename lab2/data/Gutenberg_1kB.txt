@@ -1,0 +1,19 @@
+mail Project Gutenberg for help, if you are
+ly md5sums, and sometimes other checksums. 
+If you don't have an md5sum command, use your favorite search
+engine to find one (no, Microsoft does not seem to make any standard
+checksum programs available with its Windows operating systems).
+
+For chunking, we often provide a "-parts" subdirectory where the file
+might be divided into many chunks.  These files were created with the
+Linux command 
+
+	split --bytes=15000000 --suffix-length=4 pgdvd.iso pgdvd.iso.
+
+Any Windows or Unix/Linux/BSD computer (including Mac OS X or later)
+can reassemble parts using the Unix "cat" command or the Windows "copy
+/b" command.  Sample commands follow.
+
+For both, first "cd" to get to the directory where your "parts" files
+were downloaded to.  Then:
+
